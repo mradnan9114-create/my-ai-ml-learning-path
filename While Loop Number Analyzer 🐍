@@ -1,0 +1,20 @@
+starting = int(input("Enter starting number: "))
+ending = int(input("Enter ending number: "))
+
+count = starting
+even_count = 0
+odd_count = 0
+
+while count <= ending:
+
+    if count % 2 == 0:
+        print(count, "even")
+        even_count = even_count + 1
+    else:
+        print(count, "odd")
+        odd_count = odd_count + 1
+
+    count = count + 1
+
+print("Total even numbers:", even_count)
+print("Total odd numbers:", odd_count)
