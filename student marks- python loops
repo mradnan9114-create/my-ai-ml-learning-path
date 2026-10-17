@@ -1,0 +1,19 @@
+student_name = input("Enter student name: ")
+
+total_marks = 0
+
+for subject in range(1, 6):
+marks = int(input("Enter subject marks: "))
+total_marks = total_marks + marks
+
+average = total_marks / 5
+
+print("\n----- STUDENT REPORT -----")
+print("Student Name:", student_name)
+print("Total Marks:", total_marks)
+print("Average Marks:", average)
+
+if average >= 40:
+print("Result: PASS")
+else:
+print("Result: FAIL")
