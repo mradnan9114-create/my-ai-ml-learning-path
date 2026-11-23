@@ -1,0 +1,7 @@
+items = ["milk", "bread", "eggs"]
+
+items.append("rice")
+items.remove("milk")
+
+print("Shopping Items:", items)
+print("Total Items:", len(items))
